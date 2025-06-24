@@ -11,8 +11,6 @@ This project Implements 3 of RNN's variants with their own use-cases and dataset
     - [GRU](#gru)
 - [Datasets](#datasets)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 Recurrent Neural Networks (RNNs) are a class of neural networks designed for sequence prediction problems. This project demonstrates the implementation of three RNN variants: Vanilla RNN, LSTM, and GRU, showcasing their unique strengths and applications.
