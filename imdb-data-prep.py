@@ -6,7 +6,7 @@ url = "https://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz"
 filename = "aclImdb_v1.tar.gz"
 
 response = requests.get(url, stream=True)
-response.raise_for_status()  # Raise an exception for bad status codes
+response.raise_for_status()
 
 with open(filename, "wb") as f:
     for chunk in response.iter_content(chunk_size=8192):

@@ -1,0 +1,5 @@
+#!/bin/bash
+curl -L -o ./timeseries-weather-dataset.zip\
+  https://www.kaggle.com/api/v1/datasets/download/parthdande/timeseries-weather-dataset
+  
+unzip timeseries-weather-dataset.zip -d ./timeseries-weather-dataset
